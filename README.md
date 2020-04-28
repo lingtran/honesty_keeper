@@ -3,9 +3,9 @@
 Building a monorepo project for app and api of a goals tracker. Intending to work towards having different types of frontend consumers. Exploratory project for learning purposes.
 
 Intentions...work in progress:
-Phase 0: Explore react-rails gem in Rails 5.
-Phase 1: Explore PWA webapp with standalone frontend.
-Phase 3: Mobile
+* Phase 0: Explore react-rails gem in Rails 5.
+* Phase 1: Explore PWA webapp with standalone frontend.
+* Phase 3: Mobile
 
 ## Dependencies
 * Ruby: v2.6.4
