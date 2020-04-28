@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Building an API for a goals tracker with intention to have different types of frontend consumers. Exploratory project for learning purposes. To start, exploring react-rails gem in Rails 5.
 
 ## Dependencies
 * Ruby: v2.6.4
@@ -33,6 +32,10 @@ Start server, run:
 $ NODE_ENV=development bundle exec rails assets:clobber assets:precompile && bundle exec rails server
 ```
 
+Run specs, note that NODE_ENV will have to be provided:
+```
+$ NODE_ENV=development bundle exec rake spec
+```
 
 Things you may want to cover:
 

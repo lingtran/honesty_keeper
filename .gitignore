@@ -17,16 +17,15 @@
 /storage/*
 !/storage/.keep
 
-/node_modules
-/yarn-error.log
-
-/public/assets
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+/config/credentials.yml.enc
 
 /db/domain-models.pdf
+
+/public/assets
 /public/packs
 /public/packs-test
 /node_modules
@@ -35,3 +34,5 @@ yarn-debug.log*
 .yarn-integrity
 
 bin/
+
+.rspec
